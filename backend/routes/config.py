@@ -29,6 +29,12 @@ from dotenv import load_dotenv
 load_dotenv()
 
 #app = Flask(__name__)
+# ----------------------------
+# Gemini API key
+# # ----------------------------
+
+
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 # ----------------------------
 # PostgreSQL Configuration
